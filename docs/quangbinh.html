@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Quảng Bình - Phong Nha - Kẻ Bàng</title>
+    <title>Tour Quảng Bình - Khám Phá Vùng Đất Kỳ Bí</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,66 +23,77 @@
         <a href="#gia-tour" class="fixed-booking">Đặt Tour Ngay</a>
     </header>
 
-    <section id="gioi-thieu" class="section">
-        <h2>Giới thiệu</h2>
-        <img src="image/phongnha.jpg" alt="Động Phong Nha">
-        <p>Khám phá kỳ quan thiên nhiên với hệ thống hang động độc đáo, sông ngầm huyền bí và thiên nhiên hoang sơ tại Phong Nha - Kẻ Bàng.</p>
-        <button class="btn-primary">Đặt Tour Ngay</button>
-    </section>
-
-    <section id="lich-trinh" class="section">
-        <h2>Lịch trình</h2>
-        <ul>
-            <li>07:30 - Đón khách tại Đồng Hới</li>
-            <li>09:00 - Khám phá Động Phong Nha</li>
-            <li>12:00 - Nghỉ ngơi và ăn trưa</li>
-            <li>14:00 - Tham quan Động Thiên Đường</li>
-            <li>16:00 - Trải nghiệm zipline Sông Chày - Hang Tối</li>
-            <li>18:00 - Thư giãn tại Suối Moọc</li>
-            <li>20:00 - Trở về khách sạn, kết thúc tour</li>
-        </ul>
-    </section>
-
-    <section id="gia-tour" class="section">
-        <h2>Giá Tour</h2>
-        <p><strong>Giá: 1.200.000 VND/người</strong></p>
-        <button class="btn-secondary">Đặt Ngay</button>
-    </section>
-
+    <div class="container">
+        <aside class="sidebar">
+            <div class="box">
+                <h2>Tour Nổi Bật</h2>
+                <ul>
+                    <li><a href="hue.html">Tour Huế - Cố đô thơ mộng</a></li>
+                    <li><a href="danang.html">Tour Đà Nẵng - Thành phố biển</a></li>
+                    <li><a href="ninhbinh.html">Tour Ninh Bình - Non nước hữu tình</a></li>
+                    <li><a href="sapa.html">Tour Sapa - Vùng cao Tây Bắc</a></li>
+                </ul>
+            </div>
+        
+            <div class="box">
+                <h2>Lịch trình</h2>
+                <ul>
+                    <li>07:30 - Đón khách tại khách sạn</li>
+                    <li>08:30 - Khám phá Động Phong Nha</li>
+                    <li>12:00 - Dùng bữa trưa tại nhà hàng địa phương</li>
+                    <li>14:00 - Tham quan biển Nhật Lệ</li>
+                    <li>17:00 - Trở về khách sạn, kết thúc tour</li>
+                </ul>
+            </div>
+        
+            <div class="box">
+                <h2>Giá Tour</h2>
+                <p><strong>Giá: 1.500.000 VND/người</strong></p>
+                <button class="btn-secondary">Đặt Ngay</button>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <section id="gioi-thieu" class="section">
+                <h2>Giới thiệu Quảng Bình</h2>
+                <p>Quảng Bình nổi tiếng với những kỳ quan thiên nhiên hùng vĩ, đặc biệt là hệ thống hang động kỳ bí và bãi biển tuyệt đẹp.</p>
+                <img src="image/phongnha.jpg" alt="Phong Nha - Kẻ Bàng">
+                
+                <h3>Phong Nha - Kẻ Bàng</h3>
+                <p>Di sản thiên nhiên thế giới, nơi có những hang động kỳ vĩ với hệ thống sông ngầm dài nhất thế giới.</p>
+                <img src="image/hangsondoong.jpg" alt="Hang Sơn Đoòng">
+                
+                <h3>Biển Nhật Lệ</h3>
+                <p>Bãi biển với cát trắng, nước biển trong xanh, là điểm đến lý tưởng cho những ai yêu thích biển cả.</p>
+                <img src="image/nhatle.jpg" alt="Biển Nhật Lệ">
+            </section>
+        </main>
+    </div>
     <section id="tour-khac" class="section">
         <h2>Các Tour Khác</h2>
         <div class="tour-list">
             <div class="tour-item">
                 <a href="danang.html">
-                    <img src="image/sacmaudanang.webp" alt="Đà Nẵng">
+                    <img src="image/danang.jpg" alt="Đà Nẵng">
                     <h3>Tour Đà Nẵng</h3>
-                    <p>Khám phá thành phố biển hiện đại.</p>
+                    <p>Khám phá thành phố biển xinh đẹp với Bà Nà Hills, Cầu Rồng và nhiều điểm đến hấp dẫn.</p>
                 </a>
             </div>
             <div class="tour-item">
-                <a href="hue.html">
-                    <img src="image/hue.webp" alt="Huế">
-                    <h3>Tour Huế</h3>
-                    <p>Trải nghiệm Cố đô với văn hóa đặc sắc.</p>
+                <a href="hoian.html">
+                    <img src="image/hoian.webp" alt="Hội An">
+                    <h3>Tour Hội An</h3>
+                    <p>Thả hồn vào không gian cổ kính của phố Hội.</p>
                 </a>
             </div>
         </div>
     </section>
-
-    <section id="cam-nhan" class="section">
-        <h2>Cảm Nhận Khách Hàng</h2>
-        <div class="feedback">
-            <p>⭐⭐⭐⭐⭐ "Phong Nha đẹp quá! Hướng dẫn viên nhiệt tình, dịch vụ tốt!" - <strong>Minh Anh</strong></p>
-            <p>⭐⭐⭐⭐ "Trải nghiệm zipline ở Hang Tối cực kỳ thú vị!" - <strong>Hoàng Nam</strong></p>
-        </div>
-    </section>
-
     <section id="lien-he" class="section">
         <h2>Liên hệ</h2>
         <p>Email: contact@dulichmientrung.com</p>
         <p>Hotline: 0909 123 456</p>
     </section>
-
+    
     <footer>
         <p>&copy; 2025 Du Lịch Miền Trung</p>
     </footer>

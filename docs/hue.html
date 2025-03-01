@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Huế - Trải Nghiệm Cố Đô</title>
+    <title>Tour Huế - Cố Đô Thơ Mộng</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,39 +23,64 @@
         <a href="#gia-tour" class="fixed-booking">Đặt Tour Ngay</a>
     </header>
 
-    <section id="gioi-thieu" class="section">
-        <h2>Giới thiệu</h2>
-        <img src="image/songhuong.jpg" alt="Sông Hương trữ tình">
-        <p>Hành trình khám phá Cố đô Huế với những công trình lịch sử, văn hóa đặc sắc và trải nghiệm ca Huế trên sông Hương.</p>
-        <button class="btn-primary">Đặt Tour Ngay</button>
-    </section>
-
-    <section id="lich-trinh" class="section">
-        <h2>Lịch trình</h2>
-        <ul>
-            <li>08:00 - Đón khách tại khách sạn</li>
-            <li>09:00 - Tham quan Đại Nội Huế</li>
-            <li>12:00 - Dùng bữa trưa với đặc sản Huế</li>
-            <li>14:00 - Tham quan Lăng Minh Mạng và Chùa Thiên Mụ</li>
-            <li>18:00 - Nghe ca Huế trên sông Hương</li>
-            <li>20:00 - Trở về khách sạn, kết thúc tour</li>
-        </ul>
-    </section>
-
-    <section id="gia-tour" class="section">
-        <h2>Giá Tour</h2>
-        <p><strong>Giá: 900.000 VND/người</strong></p>
-        <button class="btn-secondary">Đặt Ngay</button>
-    </section>
-
+    <div class="container">
+        <aside class="sidebar">
+            <div class="box">
+                <h2>Tour Nổi Bật</h2>
+                <ul>
+                    <li><a href="danang.html">Tour Đà Nẵng - Thành phố biển</a></li>
+                    <li><a href="phongnha.html">Tour Phong Nha - Kỳ quan thiên nhiên</a></li>
+                    <li><a href="ninhbinh.html">Tour Ninh Bình - Non nước hữu tình</a></li>
+                    <li><a href="sapa.html">Tour Sapa - Vùng cao Tây Bắc</a></li>
+                </ul>
+            </div>
+        
+            <div class="box">
+                <h2>Lịch trình</h2>
+                <ul>
+                    <li>07:30 - Đón khách tại khách sạn</li>
+                    <li>08:00 - Tham quan Đại Nội Huế</li>
+                    <li>12:00 - Dùng bữa trưa với ẩm thực cung đình</li>
+                    <li>14:00 - Khám phá Chùa Thiên Mụ và sông Hương</li>
+                    <li>18:00 - Trở về khách sạn, kết thúc tour</li>
+                </ul>
+            </div>
+        
+            <div class="box">
+                <h2>Giá Tour</h2>
+                <p><strong>Giá: 1.000.000 VND/người</strong></p>
+                <button class="btn-secondary">Đặt Ngay</button>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <section id="gioi-thieu" class="section">
+                <h2>Giới thiệu Huế</h2>
+                <p>Huế - cố đô xưa của Việt Nam, nổi tiếng với những di tích lịch sử, cảnh quan thơ mộng và nền ẩm thực tinh tế.</p>
+                <img src="image/hueindex.jpg" alt="Thành phố Huế">
+                
+                <h3>Đại Nội Huế</h3>
+                <p>Đại Nội Huế là trung tâm lịch sử của triều Nguyễn, với kiến trúc cung đình cổ kính và bề dày văn hóa đặc sắc.</p>
+                <img src="image/dainoi.jpg" alt="Đại Nội Huế">
+                
+                <h3>Chùa Thiên Mụ</h3>
+                <p>Chùa Thiên Mụ nằm bên dòng sông Hương thơ mộng, là biểu tượng tâm linh và lịch sử của Huế.</p>
+                <img src="image/chuathienmu.jpg" alt="Chùa Thiên Mụ">
+                
+                <h3>Sông Hương</h3>
+                <p>Sông Hương mang vẻ đẹp lãng mạn, gắn liền với hình ảnh Huế dịu dàng, trầm lắng.</p>
+                <img src="image/songhuong.jpg" alt="Sông Hương">
+            </section>
+        </main>
+    </div>
     <section id="tour-khac" class="section">
         <h2>Các Tour Khác</h2>
         <div class="tour-list">
             <div class="tour-item">
-                <a href="danang.html">
-                    <img src="image/sacmaudanang.webp" alt="Đà Nẵng">
-                    <h3>Tour Đà Nẵng</h3>
-                    <p>Khám phá thành phố biển sôi động.</p>
+                <a href="quangngai.html">
+                    <img src="image/quangngai.jpg" alt="Quảng Ngãi">
+                    <h3>Tour Quảng Ngãi</h3>
+                    <p>Khám phá vẻ đẹp hoang sơ của đảo Lý Sơn, bãi biển Mỹ Khê và dấu ấn lịch sử tại khu chứng tích Sơn Mỹ.</p>
                 </a>
             </div>
             <div class="tour-item">
@@ -67,21 +92,12 @@
             </div>
         </div>
     </section>
-
-    <section id="cam-nhan" class="section">
-        <h2>Cảm Nhận Khách Hàng</h2>
-        <div class="feedback">
-            <p>⭐⭐⭐⭐⭐ "Một trải nghiệm tuyệt vời, hướng dẫn viên thân thiện, ca Huế rất đặc sắc!" - <strong>Hà Linh</strong></p>
-            <p>⭐⭐⭐⭐ "Dịch vụ tốt, giá hợp lý, Huế đẹp không thể tả!" - <strong>Trọng Nghĩa</strong></p>
-        </div>
-    </section>
-
     <section id="lien-he" class="section">
         <h2>Liên hệ</h2>
         <p>Email: contact@dulichmientrung.com</p>
         <p>Hotline: 0909 123 456</p>
     </section>
-
+    
     <footer>
         <p>&copy; 2025 Du Lịch Miền Trung</p>
     </footer>

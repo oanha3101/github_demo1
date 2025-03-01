@@ -1,0 +1,68 @@
+/* Định dạng tổng thể của form */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Định dạng label */
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input và textarea */
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Input số lượng người */
+.form-container input[type="number"] {
+    width: 100px;
+}
+
+/* Checkbox điều khoản */
+.terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+/* Nút submit */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #0073e6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-container button:hover {
+    background: #0059b3;
+}

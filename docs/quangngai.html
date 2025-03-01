@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Quảng Ngãi</title>
+    <title>Tour Quảng Ngãi - Khám Phá Vùng Đất Bình Yên</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,66 +23,82 @@
         <a href="#gia-tour" class="fixed-booking">Đặt Tour Ngay</a>
     </header>
 
-    <section id="gioi-thieu" class="section">
-        <h2>Giới thiệu</h2>
-        <img src="image/quangngai.jpg" alt="Quảng Ngãi">
-        <p>Trải nghiệm vẻ đẹp hoang sơ của Quảng Ngãi với những bãi biển xanh mát và văn hóa đặc sắc.</p>
-        <button class="btn-primary">Đặt Tour Ngay</button>
-    </section>
-
-    <section id="lich-trinh" class="section">
-        <h2>Lịch trình</h2>
-        <ul>
-            <li>08:00 - Đón khách tại Quảng Ngãi</li>
-            <li>09:30 - Tham quan đảo Lý Sơn</li>
-            <li>12:00 - Ăn trưa tại nhà hàng hải sản</li>
-            <li>14:00 - Khám phá Chùa Thiên Ấn</li>
-            <li>16:00 - Tắm biển tại bãi biển Mỹ Khê</li>
-            <li>18:00 - Thưởng thức hải sản tại Sa Huỳnh</li>
-            <li>20:00 - Kết thúc tour, đưa khách về khách sạn</li>
-        </ul>
-    </section>
-
-    <section id="gia-tour" class="section">
-        <h2>Giá Tour</h2>
-        <p><strong>Giá: 1.200.000 VND/người</strong></p>
-        <button class="btn-secondary">Đặt Ngay</button>
-    </section>
-
+    <div class="container">
+        <aside class="sidebar">
+            <div class="box">
+                <h2>Tour Nổi Bật</h2>
+                <ul>
+                    <li><a href="danang.html">Tour Đà Nẵng - Thành phố biển</a></li>
+                    <li><a href="hue.html">Tour Huế - Cố đô thơ mộng</a></li>
+                    <li><a href="phongnha.html">Tour Phong Nha - Kỳ quan thiên nhiên</a></li>
+                    <li><a href="sapa.html">Tour Sapa - Vùng cao Tây Bắc</a></li>
+                </ul>
+            </div>
+            
+            <div class="box">
+                <h2>Lịch trình</h2>
+                <ul>
+                    <li>07:30 - Đón khách tại khách sạn</li>
+                    <li>08:00 - Tham quan Chùa Thiên Ấn</li>
+                    <li>10:00 - Khám phá Khu chứng tích Sơn Mỹ</li>
+                    <li>12:00 - Dùng bữa trưa tại nhà hàng địa phương</li>
+                    <li>14:00 - Tham quan Đảo Lý Sơn</li>
+                    <li>18:00 - Trở về khách sạn, kết thúc tour</li>
+                </ul>
+            </div>
+            
+            <div class="box">
+                <h2>Giá Tour</h2>
+                <p><strong>Giá: 1.000.000 VND/người</strong></p>
+                <button class="btn-secondary">Đặt Ngay</button>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <section id="gioi-thieu" class="section">
+                <h2>Giới thiệu Quảng Ngãi</h2>
+                <p>Quảng Ngãi - vùng đất bình yên với thiên nhiên hoang sơ, những bãi biển tuyệt đẹp và các di tích lịch sử quan trọng.</p>
+                <img src="image/quangngai.jpg" alt="Quảng Ngãi">
+                
+                <h3>Đảo Lý Sơn</h3>
+                <p>Hòn đảo xinh đẹp nổi tiếng với làn nước biển trong xanh, cánh đồng tỏi đặc sản và những bãi đá núi lửa độc đáo.</p>
+                <img src="image/lyson.jpg" alt="Đảo Lý Sơn">
+                
+                <h3>Chùa Thiên Ấn</h3>
+                <p>Ngôi chùa linh thiêng trên núi Thiên Ấn, nơi an nghỉ của chí sĩ Huỳnh Thúc Kháng.</p>
+                <img src="image/thienan.jpg" alt="Chùa Thiên Ấn">
+                
+                <h3>Khu chứng tích Sơn Mỹ</h3>
+                <p>Di tích lịch sử ghi lại câu chuyện bi thương về vụ thảm sát Mỹ Lai năm 1968.</p>
+                <img src="image/sonmy.jpg" alt="Khu chứng tích Sơn Mỹ">
+            </section>
+        </main>
+    </div>
     <section id="tour-khac" class="section">
         <h2>Các Tour Khác</h2>
         <div class="tour-list">
             <div class="tour-item">
                 <a href="danang.html">
-                    <img src="image/sacmaudanang.webp" alt="Đà Nẵng">
+                    <img src="image/danang.jpg" alt="Đà Nẵng">
                     <h3>Tour Đà Nẵng</h3>
-                    <p>Khám phá thành phố biển hiện đại.</p>
+                    <p>Thành phố biển xinh đẹp với những điểm du lịch nổi tiếng như Bà Nà Hills, Cầu Rồng.</p>
                 </a>
             </div>
             <div class="tour-item">
-                <a href="quangbinh.html">
-                    <img src="image/phongnha.jpg" alt="Phong Nha">
-                    <h3>Tour Phong Nha</h3>
-                    <p>Trải nghiệm kỳ quan thiên nhiên hùng vĩ.</p>
+                <a href="hoian.html">
+                    <img src="image/hoian.webp" alt="Hội An">
+                    <h3>Tour Hội An</h3>
+                    <p>Thả hồn vào không gian cổ kính của phố Hội.</p>
                 </a>
             </div>
         </div>
     </section>
-
-    <section id="cam-nhan" class="section">
-        <h2>Cảm Nhận Khách Hàng</h2>
-        <div class="feedback">
-            <p>⭐⭐⭐⭐⭐ "Đảo Lý Sơn đẹp như thiên đường, đồ ăn rất ngon!" - <strong>Minh Tuấn</strong></p>
-            <p>⭐⭐⭐⭐ "Chuyến đi đáng nhớ, bãi biển Mỹ Khê tuyệt đẹp!" - <strong>Thanh Hương</strong></p>
-        </div>
-    </section>
-
     <section id="lien-he" class="section">
         <h2>Liên hệ</h2>
         <p>Email: contact@dulichmientrung.com</p>
         <p>Hotline: 0909 123 456</p>
     </section>
-
+    
     <footer>
         <p>&copy; 2025 Du Lịch Miền Trung</p>
     </footer>
